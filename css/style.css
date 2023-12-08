@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  margin: 100px 20px;
+}
+.titulo-container {
+  padding: 0 10px;
+  margin: 50px 20px;
+}
+.titulo-container > h1 {
+  text-align: center;
+}
+.titulo-container > hr {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
+fieldset {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-flow: column;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 4px;
+}
+.principal-container {
+  padding: 0 25px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #bccef8;
+  padding: 8px;
+  border-radius: 4px;
+}
+.campo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.campo > label {
+  width: 70px;
+  display: inline-block;
+  padding: 5px;
+}
+.campo > input {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid;
+  outline: none;
+  margin-left: 5px;
+  width: 65%;
+}
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  gap: 5px;
+}
+.btn-container > button {
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 4px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #bccef8;
+  padding: 8px;
+  border-radius: 4px;
+}
+.submit-container > input {
+  padding: 25px 10px;
+  border-radius: 4px;
+  border: 1px solid;
+  cursor: pointer;
+}

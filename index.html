@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Veiculos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="titulo-container">
+            <h1>Revenda Auto</h1>
+            <hr>
+        </section>
+
+        <section class="principal-container">
+            <form action="#">
+
+                <fieldset>
+                    <legend><strong>Informação do Veiculo</strong></legend>
+                    <div class="form-container">
+                        <!-- input modelo -->
+                        <div class="campo">
+                            <label for="inModelo"><strong>Modelo:</strong></label>
+                            <input type="text" id="inModelo" required autofocus>
+                        </div>
+                        <!-- input preco -->
+                        <div class="campo">
+                            <label for="inPreco"><strong>Preço:</strong></label>
+                            <input type="number" id="inModelo" required>
+                        </div>
+                        <!-- container butões -->
+                        <div class="btn-container">
+                            <button type="submit">Listar Todos</button>
+                            <button type="submit">Filtar Valor</button>
+                            <button type="submit">Limpar Campos</button>
+                        </div>
+                    </div>
+                    <div class="submit-container">
+                        <input type="submit" value="Adicionar">
+                    </div>
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
