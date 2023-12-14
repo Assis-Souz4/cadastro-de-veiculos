@@ -31,6 +31,8 @@ fieldset {
 }
 .principal-container {
   padding: 0 25px;
+  display: grid;
+  grid-template-columns: 1FR 1FR;
 }
 form {
   display: flex;
@@ -70,7 +72,7 @@ form {
   margin-top: 15px;
   gap: 5px;
 }
-.btn-container > button {
+.btn-container > input {
   padding: 5px;
   margin-left: 5px;
   border-radius: 4px;
@@ -89,4 +91,7 @@ form {
   border-radius: 4px;
   border: 1px solid;
   cursor: pointer;
+}
+.resposta-container > pre{
+    margin: 10px 0;
 }

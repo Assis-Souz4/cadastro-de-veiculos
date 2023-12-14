@@ -23,32 +23,40 @@
 
                 <fieldset>
                     <legend><strong>Informação do Veiculo</strong></legend>
-                    <div class="form-container">
+                    <label class="form-container">
                         <!-- input modelo -->
                         <div class="campo">
                             <label for="inModelo"><strong>Modelo:</strong></label>
-                            <input type="text" id="inModelo" required autofocus>
+                            <input type="text" id="inModelo" autofocus required>
                         </div>
                         <!-- input preco -->
-                        <div class="campo">
-                            <label for="inPreco"><strong>Preço:</strong></label>
-                            <input type="number" id="inModelo" required>
-                        </div>
+                        <label class="campo">
+                            <label for="inValor"><strong>Valor:</strong></label>
+                            <input type="number" id="inValor" required>
+                        </label>
                         <!-- container butões -->
-                        <div class="btn-container">
-                            <button type="submit">Listar Todos</button>
-                            <button type="submit">Filtar Valor</button>
-                            <button type="submit">Limpar Campos</button>
-                        </div>
-                    </div>
-                    <div class="submit-container">
+                        <label class="btn-container">
+                            <input type="button" id="btnListar" value="Listar Todos">
+                            <input type="button" id="btnFiltrar" value="Filtar Valor">
+                            <input type="reset" value="Limpar Campos" id="btnReset">
+                        </label>
+                    </label>
+                    <labe class="submit-container">
                         <input type="submit" value="Adicionar">
-                    </div>
+                    </labe>
                 </fieldset>
-
+                
             </form>
+            <!-- OBS INCLUIR NO PROXIMO COMMIT CAMPOS DE RESPOSTA-->
+            <section class="resposta-container">
+                <h3>Carro(s) Cadastrado(s):</h3>
+                <hr>
+                <!-- Resposta Aqui.. -->
+                <pre></pre>
+            </section>
         </section>
     </main>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
